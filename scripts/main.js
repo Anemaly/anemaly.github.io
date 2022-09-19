@@ -23,11 +23,13 @@ myImage.onclick = () => {
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 function setUserName(tried) {
+    
     //if(!tried) {
     const myName = prompt('Please enter your name.');
-    //} else {
+    /*} else {
     //const myName = prompt('We asked nicely...');
-    //}
+    }
+    Dunno why but this doesn't work for some reason*/
     
     if (!myName) {
     setUserName(t=true);
